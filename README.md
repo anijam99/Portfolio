@@ -6,4 +6,4 @@
 
 This is my portfolio showcasing my past experiences, projects, and timeline as a full stack developer.
 
-View the [Portfolio](https://yujisatojr.github.io/react-portfolio-template/).
+View the [Portfolio](https://anijam99.github.io/Portfolio/).
