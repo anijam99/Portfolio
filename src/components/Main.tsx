@@ -4,6 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 import avatar from '../assets/images/avatar.jpg';
 
+
 function Main() {
 
   return (
@@ -18,7 +19,6 @@ function Main() {
           </div>
           <h1>Jamie</h1>
           <p>Full Stack Developer</p>
-
           <div className="mobile_social_icons">
             <a href="https://github.com/anijam99" target="_blank" rel="noreferrer"><GitHubIcon/></a>
           </div>
