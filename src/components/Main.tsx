@@ -1,12 +1,11 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 import avatar from '../assets/images/avatar.jpg';
-
+// Import your project image
+import medisort from '../assets/images/medisort.png';
 
 function Main() {
-
   return (
     <div className="container">
       <div className="about-section">
@@ -23,9 +22,29 @@ function Main() {
             <a href="https://github.com/anijam99" target="_blank" rel="noreferrer"><GitHubIcon/></a>
           </div>
         </div>
+        
+        {/* Featured Project Section */}
+        <div className="featured-project">
+          <div className="featured-badge">Featured Project</div>
+          <div className="project-card">
+            <a href="https://github.com/anijam99/medisort" target="_blank" rel="noreferrer">
+              <img src={medisort} alt="Medisort thumbnail" />
+            </a>
+            <div className="project-info">
+              <a href="https://github.com/anijam99/medisort" target="_blank" rel="noreferrer">
+                <h3>Medisort</h3>
+              </a>
+              <p>A Python GUI tool for rapid manual sorting of large image/video collections</p>
+              <div className="project-link">
+                <a href="https://github.com/anijam99/medisort" target="_blank" rel="noreferrer">
+                  View Project →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 }
-
 export default Main;
