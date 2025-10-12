@@ -56,11 +56,18 @@
 
 .project-slide {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background: rgba(30, 30, 30, 0.8) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid rgba(102, 126, 234, 0.3);
+    transition: all 0.3s ease;
+    text-align: center;
     cursor: pointer;
     
     &.left, &.right {
         opacity: 0.6;
-        transform: scale(0.85);
+        transform: scale(0.75);
         pointer-events: auto;
         
         &:hover {
@@ -115,6 +122,12 @@
             margin: 0;
         }
     }
+}
+
+.project-slide:hover .project {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+    border-color: rgba(102, 126, 234, 0.6);
 }
 
 .carousel-indicators {

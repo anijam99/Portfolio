@@ -35,7 +35,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">National Service</h3>
             <h4 className="vertical-timeline-element-subtitle">Singapore Armed Forces, Singapore</h4>
             <p>
-              Robotics Automation Process Developer, R&D Chief Clerk
+              Robotics Automation Process Developer
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
