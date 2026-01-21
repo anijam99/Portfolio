@@ -1,12 +1,8 @@
 # Jamie Tran's Portfolio
 
-View the [Portfolio](https://anijam99.github.io/Portfolio/).
+This is my portfolio showcasing my past experiences, projects, and timeline as a developer. 
 
-## What is this?
-
-This is my portfolio showcasing my past experiences, projects, and timeline as a developer.
-
-View the [Portfolio](https://anijam99.github.io/Portfolio/).
+View my [Portfolio](https://anijam99.github.io/Portfolio/).
 
 ## If you would like to adapt this portfolio for your own usage, follow the steps below
 
