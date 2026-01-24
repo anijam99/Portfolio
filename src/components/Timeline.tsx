@@ -14,8 +14,8 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            contentStyle={{ background: 'rgba(30,30,30,0.85)', color: 'rgba(255,255,255,0.9)' }}
+            contentArrowStyle={{ borderRight: '7px solid rgba(30,30,30,0.85)' }}
             date="2023 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}

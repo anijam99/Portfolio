@@ -56,13 +56,6 @@ function Project() {
                             <h2>{project.title}</h2>
                         </a>
                         <p>{project.description}</p>
-                        {project.tags && (
-                            <div className="project-tags">
-                                {project.tags.map((tag, tagIndex) => (
-                                    <span key={tagIndex} className="tag">{tag}</span>
-                                ))}
-                            </div>
-                        )}
                     </div>
                 ))}
             </div>

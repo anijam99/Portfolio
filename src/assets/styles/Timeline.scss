@@ -4,27 +4,35 @@
 }
 
 .vertical-timeline p {
-    color: rgb(39, 40, 34);
+    color: rgba(255,255,255,0.9);
 }
 
 .vertical-timeline-element p {
-    color: rgb(39, 40, 34);
+    color: rgba(255,255,255,0.9);
 }
 
 .vertical-timeline-element h3 {
-    color: rgb(39, 40, 34);
+    color: rgba(255,255,255,0.95);
 }
 
 .vertical-timeline-element h4 {
-    color: rgb(39, 40, 34);
+    color: rgba(255,255,255,0.85);
 }
 
 .vertical-timeline-element span {
-    color: rgb(39, 40, 34);
+    color: rgba(255,255,255,0.85);
 }
 
 .vertical-timeline-element .vertical-timeline-element-date {
-    color: white;
+    color: rgba(255,255,255,0.75);
+}
+
+/* Darken the timeline content boxes */
+.vertical-timeline-element-content {
+    background: rgba(30,30,30,0.85) !important;
+    color: rgba(255,255,255,0.9) !important;
+    border: 1px solid rgba(255,255,255,0.04);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
 }
 
 .svg-inline--fa {
@@ -33,6 +41,9 @@
 
 @media screen and (max-width: 1170px) {
     .vertical-timeline-element .vertical-timeline-element-date {
-        color: rgb(39, 40, 34);
+        color: rgba(255,255,255,0.75);
+    }
+    .vertical-timeline-element-content {
+        background: rgba(30,30,30,0.92) !important;
     }
 }

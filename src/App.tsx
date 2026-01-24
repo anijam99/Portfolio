@@ -7,6 +7,7 @@ import {
   Contact,
   Navigation,
   Footer,
+  About,
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
@@ -19,13 +20,16 @@ function App() {
     return (
     <div className="main-container dark-mode">
         <Navigation />
-        <FadeIn transitionDuration={700}>
-            <Main/>
-            <Project/>
-            <Timeline/>
-            <Expertise/>
-            <Contact/>
-        </FadeIn>
+        <div className="page-wrapper">
+            <FadeIn transitionDuration={700}>
+                <Main/>
+                <Project/>
+                <Timeline/>
+                <Expertise/>
+                <About/>
+                <Contact/>
+            </FadeIn>
+        </div>
         <Footer />
     </div>
     );

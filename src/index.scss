@@ -18,10 +18,38 @@ code {
   position: relative;
   background-color: #0d1116;
   min-height: 100vh;
+  background-image: url('./assets/images/bg-light-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .dark-mode {
-  background: linear-gradient(180deg, #0d1116 0%, #131922 50%, #0d1116 100%);
+  background-color: #0d1116;
+  background-image: url('./assets/images/bg-light-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.page-wrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 60px;
+  background: rgba(13, 17, 22, 0.85);
+  border-radius: 0 0 32px 32px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: none;
+  position: relative;
+  
+  @media screen and (max-width: 768px) {
+    border-radius: 0 0 24px 24px;
+    padding-bottom: 40px;
+  }
 }
 
 a {
@@ -110,7 +138,7 @@ h1 {
 }
 
 .items-container {
-  padding: 5% 10%;
+  padding: 3% 10%;
   text-align: left;
   display: flex;
   flex-direction: column;
