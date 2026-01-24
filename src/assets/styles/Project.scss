@@ -22,8 +22,8 @@
 
 .projects-container .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 28px;
     justify-content: center;
 }
 
@@ -51,11 +51,15 @@
     }
 
     img {
+        display: block;
         width: 100%;
+        height: 220px;
         border-radius: 10px;
         margin-bottom: 15px;
         transition: transform 0.3s ease;
-        object-fit: cover;
+        object-fit: contain;
+        background: rgba(255,255,255,0.02);
+        padding: 12px; /* filler for images with different aspect ratios */
     }
     
     &:hover img {
@@ -105,5 +109,11 @@
 
     .projects-container .projects-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .projects-container .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

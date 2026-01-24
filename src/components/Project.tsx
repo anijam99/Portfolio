@@ -1,45 +1,71 @@
 import React from "react";
 import medisort from '../assets/images/medisort.png';
 import keylogs from '../assets/images/keylogs.png';
+import apifybloomberg from '../assets/images/apify-bloomberg.png';
+import harry from '../assets/images/harry-text.png';
+import ibkr from '../assets/images/ibkr.png';
+import foodClassification from '../assets/images/food-classification.png';
+import polyfintech100 from '../assets/images/polyfintech100.png';
+import huaweiNus from '../assets/images/huawei-nus.png';
+import mldaHackathon from '../assets/images/mlda-hackathon.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
     const projects = [
         {
+            title: "Apify Bloomberg Scraper",
+            description: "Real-time Bloomberg data scraper built with Apify to extract and structure market data for downstream analysis.",
+            image: apifybloomberg,
+            link: "https://github.com/anijam99/Bloomberg-Real-Time-Scraper-With-Apify",
+        },
+        {
+            title: "IBKR Trading Bot Boilerplate",
+            description: "Boilerplate for building trading bots using the Interactive Brokers API, with example strategies and execution templates.",
+            image: ibkr,
+            link: "https://github.com/anijam99/ibkr-trading-bot-boilerplate",
+        },
+        {
+            title: "Harry Potter Text Generation Model",
+            description: "A generative text model fine-tuned to produce Harry Potter–style passages for experimentation and demos.",
+            image: harry,
+            link: "https://github.com/anijam99/Harry-Potter-Text-Generation-Model",
+        },
+        {
             title: "Medisort",
-            description: "A simple Python GUI tool for rapid manual sorting/tagging of large collections of images or videos into custom folders.",
+            description: "A Python GUI tool for rapid manual sorting and tagging of large collections of images or videos into custom folders.",
             image: medisort,
             link: "https://github.com/anijam99/medisort",
-            tags: ["Python", "GUI", "Productivity"]
         },
         {
             title: "Keylogs",
-            description: "A simple keylogger project written in C for educational purposes.",
+            description: "A compact keylogger written in C used for learning low-level input handling and system hooks (educational only).",
             image: keylogs,
             link: "https://github.com/anijam99/keylogs",
-            tags: ["C", "Security", "Low-level"]
         },
         {
-            title: "Portfolio",
-            description: "This portfolio website built with React and TypeScript featuring modern UI/UX design.",
-            image: medisort,
-            link: "https://github.com/anijam99/portfolio",
-            tags: ["React", "TypeScript", "SCSS"]
+            title: "Deep Learning Food Classification",
+            description: "Convolutional model for multi-class food image classification developed as a school project.",
+            image: foodClassification,
+            link: "https://github.com/anijam99/Deep-Learning-Food-Classification/tree/main",
         },
         {
-            title: "Data Scraper",
-            description: "A web scraping tool built with Python and Selenium for automated data collection.",
-            image: keylogs,
-            link: "https://github.com/anijam99",
-            tags: ["Python", "Selenium", "Automation"]
+            title: "PolyFintech 100 API Hackathon 2023",
+            description: "Runner-up in the PayPal RegTech category at PolyFintech100 for a rapid API-driven prototype.",
+            image: polyfintech100,
+            link: "https://github.com/anijam99/PolyFintech-100-API-Hackathon-2023-",
         },
         {
-            title: "API Wrapper",
-            description: "A lightweight API wrapper library for streamlined backend integrations.",
-            image: medisort,
-            link: "https://github.com/anijam99",
-            tags: ["Python", "REST", "API"]
-        }
+            title: "Huawei–NUS Innovation Challenge 2023",
+            description: "Stock trading model built for the Huawei–NUS innovation challenge, focusing on feature engineering and backtesting.",
+            image: huaweiNus,
+            link: "https://github.com/anijam99/Huawei--NUS-Innovation-Challenge-for-stock-trading-model?tab=readme-ov-file",
+        },
+        {
+            title: "MLDA Hackathon 2022",
+            description: "Hackathon entry (Pinocchio) combining lightweight ML techniques for an applied use case.",
+            image: mldaHackathon,
+            link: "https://github.com/anijam99/MLDA-Hackathon-2022-Pinocchio/tree/main",
+        },
     ];
 
     return (
