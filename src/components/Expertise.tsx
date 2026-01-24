@@ -34,7 +34,7 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Data Science, Machine Learning, AI</h3>
+                    <h3>Data Science, Machine Learning, AI, Quant</h3>
                     <p>I have built a diverse array of AI and machine learning models uitilizing my background in data science.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>

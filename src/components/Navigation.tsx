@@ -15,7 +15,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 
 const drawerWidth = 240;
-const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact']];
+const navItems = [['Projects', 'projects'], ['History', 'history'], ['Expertise', 'expertise'], ['Contact', 'contact']];
 
 function Navigation() {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);

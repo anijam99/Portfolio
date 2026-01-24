@@ -4,7 +4,6 @@ import {
   Timeline,
   Expertise,
   Project,
-  RecyclerProject,
   Contact,
   Navigation,
   Footer,
@@ -22,10 +21,9 @@ function App() {
         <Navigation />
         <FadeIn transitionDuration={700}>
             <Main/>
-            <Expertise/>
-            <Timeline/>
             <Project/>
-            <RecyclerProject/>
+            <Timeline/>
+            <Expertise/>
             <Contact/>
         </FadeIn>
         <Footer />

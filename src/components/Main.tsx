@@ -1,6 +1,6 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
-import LaunchIcon from '@mui/icons-material/Launch';
+import vyticlePage from '../assets/images/vyticle-page.png';
 import '../assets/styles/Main.scss';
 
 function Main() {
@@ -12,8 +12,7 @@ function Main() {
             <a href="https://github.com/anijam99" target="_blank" rel="noreferrer"><GitHubIcon/></a>
           </div>
           <h1>Jamie</h1>
-          <p className="title-role">Founder of <a href="https://vyticle.com" target="_blank" rel="noreferrer" className="startup-link">Vyticle <LaunchIcon className="launch-icon"/></a></p>
-          <p className="tagline">Turning market narratives into trackable investment theses</p>
+          <p className="title-role">Developer, Founder of <a href="https://vyticle.com" target="_blank" rel="noreferrer" className="startup-link">Vyticle</a></p>
           <div className="mobile_social_icons">
             <a href="https://github.com/anijam99" target="_blank" rel="noreferrer"><GitHubIcon/></a>
           </div>
@@ -21,10 +20,9 @@ function Main() {
         
         {/* Featured Startup Section */}
         <div className="featured-project">
-          <div className="featured-badge">My Startup</div>
           <div className="project-card">
             <div className="startup-logo">
-              <span className="logo-text">V</span>
+              <img src={vyticlePage} alt="Vyticle Dashboard" />
             </div>
             <div className="project-info">
               <a href="https://vyticle.com" target="_blank" rel="noreferrer">
