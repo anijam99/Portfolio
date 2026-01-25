@@ -8,18 +8,15 @@ function About() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            {/* Edit this section to add your own story */}
-            Hi there! I'm Jamie, a passionate developer and entrepreneur based in Singapore. 
-            I love building products that solve real problems and make a meaningful impact.
+            Hi! I'm Jamie, a developer based in Singapore currently serving National Service.
+            I founded Vyticle to streamline due diligence and build practical tools that solve real problems.
           </p>
           <p>
-            My journey in tech started with a curiosity for how things work, which quickly 
-            evolved into a passion for creating innovative solutions. Today, I focus on 
-            full-stack development, AI/ML applications, and building Vyticle.
+            I'm inspired by researchers like Ilya Sutskever, a pioneer in deep learning and co‑founder of OpenAI.
+            Their work drives my commitment to ethical, transparent AI and to implementing strong safeguards for responsible deployment.
           </p>
           <p>
-            When I'm not coding, you can find me exploring new technologies, reading about 
-            market trends, or working on the next big feature for my startup.
+            Beyond AI, I enjoy exploring web scraping, quant trading, data science, and automation.
           </p>
         </div>
       </div>

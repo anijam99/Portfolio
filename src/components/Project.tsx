@@ -50,7 +50,7 @@ function Project() {
         },
         {
             title: "PolyFintech 100 API Hackathon 2023",
-            description: "Runner-up in the PayPal RegTech category at PolyFintech100 for a rapid API-driven prototype.",
+            description: "Runner-up Winner in the PayPal RegTech category at PolyFintech100 for retail fraud detection.",
             image: polyfintech100,
             link: "https://github.com/anijam99/PolyFintech-100-API-Hackathon-2023-",
         },
@@ -61,8 +61,8 @@ function Project() {
             link: "https://github.com/anijam99/Huawei--NUS-Innovation-Challenge-for-stock-trading-model?tab=readme-ov-file",
         },
         {
-            title: "MLDA Hackathon 2022",
-            description: "Hackathon entry (Pinocchio) combining lightweight ML techniques for an applied use case.",
+            title: "NTU Machine Learning and Data Analytics (MLDA) Hackathon 2022",
+            description: "Nominated hackathon entry combining lightweight ML techniques for scam detection.",
             image: mldaHackathon,
             link: "https://github.com/anijam99/MLDA-Hackathon-2022-Pinocchio/tree/main",
         },

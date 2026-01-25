@@ -47,7 +47,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Founder, Lead Developer</h3>
             <h4 className="vertical-timeline-element-subtitle">Vyticle</h4>
             <p>
-              Web Scraping, GenAI/LLM, Databases, Virtual Private Servers, Web Development, App Development
+              Web Scraping, GenAI/LLM, Databases, VPS Hosting , Web Development, App Development
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
