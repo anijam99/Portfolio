@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.68443342.css",
-    "main.js": "/Portfolio/static/js/main.daa21457.js",
+    "main.css": "/Portfolio/static/css/main.07c75a59.css",
+    "main.js": "/Portfolio/static/js/main.e383ffcd.js",
     "static/js/453.ed0b1318.chunk.js": "/Portfolio/static/js/453.ed0b1318.chunk.js",
-    "static/media/bg-light.png": "/Portfolio/static/media/bg-light.119f3838f46d8abeb9b4.png",
-    "static/media/bg-dark.png": "/Portfolio/static/media/bg-dark.8ad2de5a36b9d05f1fe7.png",
+    "static/media/bg-light-2.png": "/Portfolio/static/media/bg-light-2.3536f66c9b34140080b6.png",
+    "static/media/huawei-nus.png": "/Portfolio/static/media/huawei-nus.4f5ed3d5381fd80fe15a.png",
+    "static/media/food-classification.png": "/Portfolio/static/media/food-classification.aa88712dd5f435c3a327.png",
+    "static/media/vyticle-page.png": "/Portfolio/static/media/vyticle-page.14a33473e323c68ea66c.png",
+    "static/media/apify-bloomberg.png": "/Portfolio/static/media/apify-bloomberg.27a2504c57d73b2571f8.png",
+    "static/media/mlda-hackathon.png": "/Portfolio/static/media/mlda-hackathon.cb0f0671598b5d7726ee.png",
     "static/media/keylogs.png": "/Portfolio/static/media/keylogs.f6b537dc39151aefe0b4.png",
+    "static/media/avatar.jpg": "/Portfolio/static/media/avatar.954583c038e23f2c89d1.jpg",
+    "static/media/harry-text.png": "/Portfolio/static/media/harry-text.191c9ae3ace75a262caa.png",
+    "static/media/ibkr.png": "/Portfolio/static/media/ibkr.f78715c8de5b12e8a301.png",
     "static/media/medisort.png": "/Portfolio/static/media/medisort.49dca70b3c914b1bdf35.png",
+    "static/media/polyfintech100.png": "/Portfolio/static/media/polyfintech100.35682d29dcec8a5bdeec.png",
     "index.html": "/Portfolio/index.html",
-    "main.68443342.css.map": "/Portfolio/static/css/main.68443342.css.map",
-    "main.daa21457.js.map": "/Portfolio/static/js/main.daa21457.js.map",
+    "main.07c75a59.css.map": "/Portfolio/static/css/main.07c75a59.css.map",
+    "main.e383ffcd.js.map": "/Portfolio/static/js/main.e383ffcd.js.map",
     "453.ed0b1318.chunk.js.map": "/Portfolio/static/js/453.ed0b1318.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68443342.css",
-    "static/js/main.daa21457.js"
+    "static/css/main.07c75a59.css",
+    "static/js/main.e383ffcd.js"
   ]
 }
